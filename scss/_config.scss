@@ -2,10 +2,10 @@ $primary-color: #f5f5f5;
 $secondary-color: #deb887;
 $ref-color: #3a3b3c;
 $show-home-image: true;
-$home-image: url(../images/background.jpg);
+$home-image: url(../images/pm-logo.png);
 $background-opacity: 0.7;
-$logo-img: url(../images/KD_white.png);
-$logo-img-sticky: url(../images/KD_wood.png);
+$logo-img: url(../images/digit-7.png);
+$logo-img-sticky: url(../images/digit-7.png);
 
 @mixin easeOut {
   transition: all 0.3s ease-out;

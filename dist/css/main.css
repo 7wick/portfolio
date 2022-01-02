@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(../images/background.jpg);
+  background: url(../images/pm-logo.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -227,7 +227,7 @@ nav .menu-btn,
   background: rgba(245, 245, 245, 0.9);
 }
 .about_nav#bg-img {
-  background: url(../images/background.jpg);
+  background: url(../images/pm-logo.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

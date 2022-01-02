@@ -17,11 +17,11 @@ window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {
     nav.classList.add("sticky");
     scrollBtn.style.display = "block";
-    document.getElementById("mylogo").src = "images/KD_wood.png";
+    document.getElementById("mylogo").src = "images/digit-7.png";
   } else {
     nav.classList.remove("sticky");
     scrollBtn.style.display = "none";
-    document.getElementById("mylogo").src = "images/KD_grey.png";
+    document.getElementById("mylogo").src = "images/digit-7.png";
   }
 };
 
