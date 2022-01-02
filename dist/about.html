@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>About me</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item ">
+                    <a href="index.html" class= "nav-link">Home</a>
+                </li> 
+                <li class="nav-item current">
+                    <a href="about.html" class= "nav-link">About</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="skills.html" class= "nav-link">Skills</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="projects.html" class= "nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class= "nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <h1 class="lg-heading">About me</h1>
+        <h2 class="sm-heading">Let's have a glance!</h2>
+        <div class="about-info">
+            <img src="images/photo.jpg" alt="Divyansh" title="Divyansh" class="bio-image">
+            <div class="bio">
+                <h3><strong>About</strong></h3>
+                <p>
+                    Hi I am Kumar Divyansh! An enthusiastic engineer with a demonstrated history of working in information technology and services industry, and always ready to learn new technologies. Have also been the head of events, product . I have total experience of 2+ years. I am passionate about working on newer things and building scalable products that would make an impact.
+                </p>
+            </div>
+
+            <div class="experience">
+                <div class="experience-menu">
+                    <h3 id="education" onclick="switchVisible(this.id)">Education</h3>
+                    <h3 id="work" onclick="switchVisible(this.id)">Experience</h3>
+                </div>
+                <div class="experience-desc">
+                    <ul id="education-desc">
+                        <li>
+                            <h4>Bachelor Of Technology</h4>
+                            <h5 style="font-style: italic;">KIET Group Of Institutions</h5 >
+                            <p style="font-style: italic;">2015 - 2019</p>
+                            <sub style="font-style: italic;">75%</sub>
+                        </li>
+                        <!-- <li >
+                            <h4>XII</h4>
+                            <h5>ISC Board</h5>
+                            <p>2014</p>
+                            <sub>90%</sub>
+                        </li> -->
+                    </ul>
+                    <ul id="work-desc">
+                        <li>
+                            <h4>Software Engineer</h4>
+                            <h5 style="font-style: italic;" style="font-style: italic;">TATA Consultancy Services</h5>
+                            <p style="font-style: italic;">2019 - Present</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-resume">
+                    <a href="resume/Kumar_Divyansh_Resume.pdf" target="_blank"
+                         role="button" download="Kumar_Divyansh_Resume.pdf"> 
+                          Download Resume &nbsp;<i class="fa fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2021
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

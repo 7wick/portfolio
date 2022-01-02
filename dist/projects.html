@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Works</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item ">
+                    <a href="index.html" class= "nav-link">Home</a>
+                </li> 
+                <li class="nav-item ">
+                    <a href="about.html" class= "nav-link">About</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="skills.html" class= "nav-link">Skills</a>
+                </li> 
+                <li class="nav-item current">
+                    <a href="projects.html" class= "nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class= "nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="projects">
+        <h1 class="lg-heading">My Projects</h1>
+        <h2 class="sm-heading">Let's have a glance over some of my works....</h2>
+
+        <!-- Project photo and link -->
+        <div class="projects">
+            <!-- 1st project -->
+           <div class="item">
+               <a href="https://todobanao.netlify.app" >
+                   <img src="images/Project1.PNG" alt="Project1">
+               </a>
+               <div class="btn-light" id="todoApp-menu" onclick="showDesc(this.id)">
+                   <i class="fa fa-eye"></i>Description
+               </div>
+               <a href="https://github.com/kd2512/To-Do-App" class="btn-dark">
+                    <i class="fab fa-github"></i>Github
+                </a>
+           </div> 
+           <!-- 2nd project -->
+           <div class="item">
+               <a href="https://kharchabook.netlify.app" >
+                   <img src="images/Project2.PNG" alt="Project2">
+               </a>
+               <div class="btn-light" id="kharchaBook-menu" onclick="showDesc(this.id)">
+                   <i class="fa fa-eye"></i>Description
+               </div>
+               <a href="https://github.com/kd2512/ExpenseCalc" class="btn-dark">
+                    <i class="fab fa-github"></i>Github
+                </a>
+           </div> 
+           <!-- 3rd project -->
+           <div class="item">
+               <a href="https://squadmanagement.netlify.app" >
+                   <img src="images/Project3.PNG" alt="Project3">
+               </a>
+               <div class="btn-light" id="squadManage-menu" onclick="showDesc(this.id)">
+                   <i class="fa fa-eye"></i>Description
+               </div>
+               <a href="https://github.com/kd2512/SquadManagement" class="btn-dark">
+                    <i class="fab fa-github"></i>Github
+                </a>
+           </div> 
+        </div>
+
+        <!-- Project Description -->
+        <div>
+            <div class="project-desc" id="toDoApp">
+                <p>
+                    ToDo App is simple and awesome app to organize your tasks with very easy to use interface. ToDo can help you to make list of your tasks to be reviwed at any time.
+                    We believe that we only focus on our Today and Tomorrow tasks, which is most important. So we made user interface like that so that it can give you a quick view on your day timeline.
+                    <br><br>
+                    <b>Functions :</b>
+                    - Add your task as a list.
+                    - Add unlimited Categories to organize your work
+                    - Modify your Task Heading / Descriptions
+                    - Share it with other friends / Family.
+                    - Check your Done tasks and you can restore them back or delete permanently.
+                    <br><br>
+                    ToDo App is built using
+                    - React, Javascript
+                    - HTML, CSS, Bootstrap
+                </p>
+            </div>
+
+            <div class="project-desc" id="kharchaBook">
+                <p>
+                    Tracking your spending is often the first step in getting your finances in order. By understanding what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.It’s easy to make this part of your everyday routine thanks to expense tracker apps that help you manage your money on the go. <br><br>
+                    The first expense tracking apps came out decades ago in the form of desktop programs such as Quicken and Microsoft Money, but the world of expense tracking has come a long way since the first version of Quicken came to the market in 1983. Now you have Web and phone-based expense tracker apps that can help you reach a whole new level of financial knowledge and preparedness. If you need to track a budget, one of these expense tracker apps is likely a great fit for you.
+                    <br><br>
+                    KharchaBook App is built using
+                    - Javascript
+                    - HTML, CSS, Bootstrap
+                </p>
+            </div>
+
+            <div class="project-desc" id="squadManagement">
+                <p>
+                    Super hero themes react-redux application built with complete add/remove functionality.
+                    When we were child, we used to play card games of certain characters like pokemon cards, wresters cards. this is a small project wherein we can make our team of superheroes along with their powers, strength and can make a small game for leisure time, same as our card game. 
+                    <br><br>
+                    <b>Functions :</b>
+                    - Add your superheroes into your list.
+                    - Make a team of superheroes you like.
+                    - You can also add the heroes and see the total and individual strengths.
+                    - Share it with other friends / Family.
+                    - Check your added heroes and you can restore them back or remove them.
+                    <br><br>
+                    SquadManagement App is built using
+                    - React, Redux, Javascript
+                    - HTML, CSS, Bootstrap
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2021
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

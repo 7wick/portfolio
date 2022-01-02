@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/devicon_2.13.0.devicon.min.css">
+
+    <title>Saatwick Chandra</title>
+</head>
+
+<body id="bg-img">
+
+    <!-- scroll to top -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <header>
+
+        <!-- Nav-bar section -->
+        <nav class="horizontal-menu">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img id="mylogo" src="images/KD_grey.png" alt="logo"></a>
+                </div>
+            
+                <ul class="menu1">
+                    <li>
+                        <a href="#about" class= "nav-link" id="about_nav" onclick="showMenuBtn()">About</a>
+                    </li> 
+                    <li >
+                        <a href="#experience" class= "nav-link" id="experience_nav"  onclick="showMenuBtn()">Experience</a>
+                    </li> 
+                    
+                    <li >
+                        <a href="#education" class= "nav-link" id="skills_nav" onclick="showMenuBtn()">Education</a>
+                    </li> 
+
+                    <li>
+                        <a href="#projects" class= "nav-link" id="projects_nav" onclick="showMenuBtn()">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class= "nav-link" id="contact_nav" onclick="showMenuBtn()">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#blogs" class= "nav-link" id="contact_nav" onclick="showMenuBtn()">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class= "nav-link" id="contact_nav" onclick="showMenuBtn()">Contact</a>
+                    </li>
+                    <button  class="cancel-btn" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </ul>
+
+                <!-- media icons -->
+                <div class="media-icons">
+                    <a href="https://www.linkedin.com/in/kd2512">
+                        <i class="fab fa-linkedin fa-2x" aria-hidden="true" title="LinkedIn"></i>
+                    </a>&nbsp;&nbsp;
+                    <a href="https://github.com/kd2512">
+                        <i class="fab fa-github fa-2x" aria-hidden="true" title="Github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- menu-buttons -->
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home-section -->
+    <section class="home_nav" id="home_nav" >
+        <div class="home-content" id="home">
+            <h1 style="text-align: center; font-size: 4rem;" class="lg-heading">Hi, I'm 
+                <span class="secondary">Saatwick Chandra!</span></h1>
+            <h2 class="sm-heading">Know Me...</h2>
+
+            <!-- About -->
+            <div class="about-info">
+                <div class="experience" style="color:black">
+                    <!-- <div class="experience-menu">
+                        <h3 id="education" onclick="switchVisible(this.id)">Education</h3>
+                        <h3 id="work" onclick="switchVisible(this.id)">Experience</h3>
+                    </div> -->
+                    <div class="experience-desc">
+                        <ul id="education-desc">
+                            <li>
+                                Area of interest lies in product management, scalable system architecture and product strategy
+                            </li>
+                            <li>
+                                Experience in software development, entrepreneurship, project management, B2C sales, leadership, product strategy and market fit.
+                            </li>
+                            <li>
+                                Graduated 12th (NIOS board) with 99.98th percentile in India 
+                            </li>
+                            <li>
+                                1st runner up in national logo designing competition by Government of Delhi, India and IIT Delhi.
+                            </li>
+                            <li>
+                                Recognised for an educational project ideation by Mozilla, Bhubaneswar
+                            </li>
+                            <li>
+                                Got 1400+ reads on my technical blogs.
+                            </li>    
+                        </ul>
+                    </div>
+                    <div class="experience-resume">
+                        <a href="resume/Kumar_Divyansh_Resume.pdf" target="_blank"
+                             role="button" download="Kumar_Divyansh_Resume.pdf"> 
+                              Download Resume &nbsp;<i class="fa fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- About -section -->
+     <section class= "about_nav" id="about_nav" style="padding: 1.5rem;">
+        <div class="about-content" id="about">
+            <h1 class="lg-heading secondary" style="font-size:4rem; margin-left:15px">Experience </h1>
+            <h2 class="sm-heading" style="color:black; text-align: center;">Professional</h2>
+            <p style="color:black;">I have experience in building and shipping a SaaS product on AWS marketplace and building a next-gen cloud platform. Apart from this, I also served as a scrum master to the team while being the engineer. ​
+                Currently, I serve as a product owner and a technical project manager for a DevOps team spread across the globe.</p> <br>
+                <ul>
+                    <li>
+                        <h4 style="font-style: bold; font-weight:600; color:black;">Acquia, India </h4>
+                        <p style="font-style: italic;color:black;">Product Owner and Associate Technical Project Manager. <span style="float:right ;color:black;">Sep’21 - Present</span> </p> 
+                        <p style="font-style: italic;color:black;">Associate Software Engineer and Scrum Master  <span style="float:right ;color:black;">Aug’20 - Sep’21</span> </p>
+                    </li><br>
+                    <li>
+                        <h4 style="font-style: bold; font-weight:600; color:black;">GS Lab, India </h4>
+                        <p style="font-style: italic;color:black;">Software Engineer (Full-time and Intern)   <span style="float:right ;color:black;"> Sep’18 - Aug’20</span> </p>
+                    </li><br>
+                    <li>
+                        <h4 style="font-style: bold; font-weight:600; color:black;">CSM Technologies, India</h4>
+                        <p style="font-style: italic;color:black;">Software Analyst.  <span style="float:right ;color:black;">Jun'18 - Jul'18</span> </p>
+                    </li>
+                    
+                </ul>
+            
+            <h2 class="sm-heading" style="color:black; text-align: center;">Volunteering</h2>
+            <li style="color:black;">Leadership, cross-country project management and B2C sales experience in an international organisation, AIESEC, for 2 years.</li>
+            <li style="color:black;">Served in an educational welfare organisation, impacting 400+ slum children.</li>
+            <li style="color:black;">Volunteered for business development in an educational startup, Yoken Online.</li>
+            <li style="color:black;">Supported a friend in building his startup. Helped with product strategy, business use cases, formulating the customer phases, and budget management.</li>
+        </div>
+    </section> 
+
+    <!-- Skills-section -->
+    <section class="skills_nav" id="skills_nav">
+        <div class="skills-content" id="skills">
+            <h1 class="lg-heading secondary" style="font-size:4rem; margin-left:15px">Education </h1>
+            <h2 class="sm-heading" style="text-align: center;">Formal Education</h2>
+
+                <ul>
+                    <li>
+                        
+                        <p>Bachelor of Technology, Information Technology<span style="float:right ;">2015 - 2019</span> </p> 
+                        <p >KIIT University, Bhubaneswar, India   <span style="float:right ;"> GPA: 8.7/10</span> </p>
+                    </li><br>
+                    </li>
+                    
+                </ul>
+            
+            <h2 class="sm-heading" style="text-align: center;">Online accreditation and certifications</h2>
+            <li>Certified ScrumMaster® (CSM®).</li>
+            <li>AWS Certified Cloud Practitioner.</li>
+            <li>Google Agile Project Management - Coursera.</li>
+            <li>Azure Architecture Technologies - Udemy</li>
+            <li>Acquia R&D Agile and JIRA training</li>
+            <li>Red Hat Linux System Administration Essentials - Pluralsight</li>
+            <li>Kubernetes Configuration Fundamentals - Pluralsight</li>
+            
+        </div>
+    </section>
+
+    <!-- Projects-section -->
+    <section class="projects_nav" id="projects_nav">
+        <div class="project-content" id="projects">
+            <h1 class="lg-heading"><span style="color:black">My </span><span class="secondary">Projects</span></h1>
+            <h2 class="sm-heading" style="color:black">Let's have a glance over some of my works....</h2>
+            
+            <!-- sliders -->
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    
+                        <div class="project-photo">
+                            <!-- <div class="project-photo-sub"> -->
+                            <a href="https://todobanao.netlify.app">
+                            <img class="demo" src="images/Project1.PNG" alt="Project1"></a>
+                            <!-- </div> -->
+                        </div>
+                        <div class="project-desc" id="toDoApp">
+                            <div class="project-desc-sub">
+                                <h2><b>To Do App</b></h2>
+                                <p>
+                                    ToDo App is simple and awesome app to organize your tasks with very easy to use interface. ToDo can help you to make list of your tasks to be reviwed at any time.
+                                    We believe that we only focus on our Today and Tomorrow tasks, which is most important. So we made user interface like that so that it can give you a quick view on your day timeline.
+                                    <br><br>
+                                    <b>Functions :</b>
+                                    - Add your task as a list.
+                                    - Add unlimited Categories to organize your work
+                                    - Modify your Task Heading / Descriptions
+                                    - Share it with other friends / Family.
+                                    - Check your Done tasks and you can restore them back or delete permanently.
+                                    <br><br>
+                                    ToDo App is built using
+                                    - React, Javascript
+                                    - HTML, CSS, Bootstrap
+                                </p>
+                                <div class="showProjects-btn"> 
+                                <a href="https://todobanao.netlify.app">
+                                    <button class="projectDemo-btn">Demo</button>
+                                </a>
+                                <a href="https://github.com/kd2512/To-Do-App">
+                                    <button class="projectGit-btn"><i class="fab fa-github"></i>Github</button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 3</div>
+                    
+                        <section class="project-photo">
+                            <!-- <div class="project-photo-sub"> -->
+                            <a href="https://kharchabook.netlify.app" >
+                                <img class="demo" src="images/Project2.PNG" alt="Project2">
+                            </a>
+                            <!-- </div> -->
+                        </section>
+                        <section class="project-desc" id="kharchaBook">
+                            <div class="project-desc-sub">
+                                <h2><b>KharchaBook</b></h2>
+                                <p>
+                                    Tracking your spending is often the first step in getting your finances in order. By understanding what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.It’s easy to make this part of your everyday routine thanks to expense tracker apps that help you manage your money on the go. <br><br>
+                                    The first expense tracking apps came out decades ago in the form of desktop programs such as Quicken and Microsoft Money, but the world of expense tracking has come a long way since the first version of Quicken came to the market in 1983. Now you have Web and phone-based expense tracker apps that can help you reach a whole new level of financial knowledge and preparedness. If you need to track a budget, one of these expense tracker apps is likely a great fit for you.
+                                    <br><br>
+                                    KharchaBook App is built using
+                                    - Javascript
+                                    - HTML, CSS, Bootstrap
+                                </p>
+                                <div class="showProjects-btn">
+                                <a href="https://kharchabook.netlify.app">
+                                    <button class="projectDemo-btn">Demo</button>
+                                </a>
+                                <a href="https://github.com/kd2512/ExpenseCalc">
+                                    <button class="projectGit-btn"><i class="fab fa-github"></i>Github</button>
+                                </a>
+                                </div>
+                            </div>
+                        </section>
+                    
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    
+                        <section class="project-photo">
+                            <!-- <div class="project-photo-sub"> -->
+                            <a href="https://squadmanagement.netlify.app" >
+                                <img class="demo" src="images/Project3.PNG" alt="Project3">
+                            </a>
+                            <!-- </div> -->
+                        </section>
+                        <section class="project-desc" id="squadManagement">
+                            <div class="project-desc-sub">
+                                <h2><b>SquadManagement</b></h2>
+                                <p>
+                                    Super hero themes react-redux application built with complete add/remove functionality.
+                                    When we were child, we used to play card games of certain characters like pokemon cards, wresters cards. this is a small project wherein we can make our team of superheroes along with their powers, strength and can make a small game for leisure time, same as our card game. 
+                                    <br><br>
+                                    <b>Functions :</b>
+                                    - Add your superheroes into your list.
+                                    - Make a team of superheroes you like.
+                                    - You can also add the heroes and see the total and individual strengths.
+                                    - Share it with other friends / Family.
+                                    - Check your added heroes and you can restore them back or remove them.
+                                    <br><br>
+                                    SquadManagement App is built using
+                                    - React, Redux, Javascript
+                                    - HTML, CSS, Bootstrap
+                                </p>
+                                <div class="showProjects-btn">
+                                <a href="https://squadmanagement.netlify.app">
+                                    <button class="projectDemo-btn">Demo</button>
+                                </a>
+                                <a href="https://github.com/kd2512/SquadManagement">
+                                    <button class="projectGit-btn"><i class="fab fa-github"></i>Github</button>
+                                </a>
+                                </div>
+                            </div>
+                        </section>
+                    
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-section -->
+    <section class="contact_nav" id="contact_nav" >
+        <div class="contact-content" id="contact">
+            <h1 class="lg-heading secondary">Contact <span style="color: #fff;">me</span></h1>
+            <h2 class="sm-heading" style="color: black;">Please feel free to reach me at...</h2>
+            <div class="boxes">
+               <div class="contact-photo">
+                   <img src="images/contact1.gif" alt="contact" >
+               </div>
+
+               <div class="contact-desc">
+                   
+                    <div class="desc-size">
+                        <i class="fa fa-envelope" aria-hidden="true" style="color:red"></i><a href="mailto:saatwick.chandra2201@gmail.com"><span > : <u>Saatwick Chandra</u></span></a>
+                    </div>
+                    <div class="desc-size">
+                        <i class="fab fa-linkedin" style="color:#287bbc"></i><a href="https://www.linkedin.com/in/saatwick"> : <u>LinkedIn</u></a>
+                    </div> 
+                    <div class="desc-size">
+                        <i class="fab fa-github" aria-hidden="true" style="color: black;"></i><a href="https://www.github.com/7wick"> : Github</span>
+                    </div>
+                    
+                    <div class="desc-size">
+                        <i class="fab fa-medium" aria-hidden="true" style="color: black;"></i><a href="https://medium.com/@saatwick.chandra"> : Medium</span>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer id="main-footer">
+        No &copy; Copyright issues.
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

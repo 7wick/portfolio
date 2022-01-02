@@ -1,0 +1,14 @@
+{
+  "name": "finalportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/:dist/css/ --watch "
+  },
+  "author": "Divyansh",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.36.0"
+  }
+}

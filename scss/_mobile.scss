@@ -1,0 +1,302 @@
+//wideScreens
+@include mediaXl {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+    img {
+      border-radius: 30%;
+      width: 11rem;
+      height: 11rem;
+    }
+  }
+}
+
+//LargeScreens
+@include mediaLg {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    img {
+      border-radius: 30%;
+      width: 11rem;
+      height: 11rem;
+    }
+  }
+}
+
+//mediumScreens--tablets etc.
+@include mediaMd {
+  nav .navbar {
+    width: 90%;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+  nav .navbar .menu1 {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: darken($ref-color, 15);
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    @include easeOut();
+  }
+
+  .navbar.active .menu1 {
+    left: 0;
+  }
+
+  nav .navbar .menu1 a {
+    font-size: 23px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  nav.sticky .menu1 .a:hover {
+    color: $secondary-color;
+  }
+
+  nav .navbar .media-icons {
+    display: none;
+  }
+
+  nav .menu-btn,
+  .navbar .menu1 .cancel-btn {
+    display: block;
+    opacity: 1;
+  }
+
+  .home_nav,
+  .about_nav,
+  .contact_nav,
+  .skills_nav {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    .lg-heading {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 75px;
+    }
+  }
+
+  .projects_nav {
+    align-items: center;
+    width: 100%;
+
+    .lg-heading {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 75px;
+    }
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .about-info .upper-about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about-info .bio {
+    font-size: 1.25rem;
+  }
+
+  .about-info .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-info .experience .experience-menu {
+    height: 25%;
+    margin-left: 0;
+    width: auto;
+  }
+
+  .about-info .experience .experience-desc {
+    height: 50%;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .about-info .experience .experience-resume {
+    height: 75%;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    img {
+      border-radius: 30%;
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    height: 100%;
+    background-color: $primary-color;
+    border-radius: 3%;
+
+    // div:last-child {
+    //   margin-right: 5%;
+    // }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 3%;
+    }
+    .contact-photo {
+      justify-items: flex-start;
+      height: 25%;
+    }
+
+    .contact-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      justify-items: center;
+      line-height: 2.5;
+      height: 75%;
+
+      .desc-size {
+        font-size: 1.5rem;
+        font-family: monospace;
+      }
+
+      .desc-size a {
+        color: black;
+        //@include easeOut();
+      }
+    }
+  }
+
+  .container .mySlides .project-photo {
+    text-align: center;
+    background: rgba(#3a3b3c, 0.2);
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .container .mySlides .project-desc {
+    height: 50vh;
+  }
+
+  .container .mySlides .project-desc .project-desc-sub {
+    height: 50vh;
+    overflow: scroll;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .container .mySlides .project-desc {
+    .showProjects-btn {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5px;
+    }
+  }
+}
+
+//smallScreens-- smartphones etc.
+@include mediaSm {
+  .home_nav,
+  .about_nav,
+  .contact_nav,
+  .skills_nav {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    .home_nav .home-content .lg-heading {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 35px;
+    }
+    .lg-heading {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 55px;
+    }
+  }
+
+  .projects_nav {
+    align-items: center;
+    width: 100%;
+
+    .lg-heading {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 75px;
+    }
+  }
+
+  nav .menu-btn,
+  .navbar .menu1 .cancel-btn {
+    display: block;
+    opacity: 1;
+  }
+
+  .skills {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+    img {
+      border-radius: 30%;
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+
+  .boxes .contact-desc {
+    .desc-size {
+      font-size: 1rem;
+    }
+  }
+  .container .mySlides .project-photo {
+    text-align: center;
+    background: rgba(#3a3b3c, 0.2);
+  }
+}
