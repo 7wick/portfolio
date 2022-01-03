@@ -29,7 +29,10 @@
         <nav class="horizontal-menu">
             <div class="navbar">
                 <div class="logo">
-                    <a href="#"><img id="mylogo" src="images/digit-7.png" alt="logo"></a>
+                    <a href="#"><img id="mylogo" style="
+                        width: 5.5rem;
+                        height: 6.5rem;
+                    "src="images/digit-7.png" alt="logo"></a>
                 </div>
             
                 <ul class="menu1">
@@ -82,13 +85,56 @@
     <section class="home_nav" id="home_nav" >
         <div class="home-content" id="home">
             <h1 style="text-align: center; font-size: 4rem;" class="lg-heading">Welcome, I'm
-                <span class="secondary">Saatwick Chandra</span></h1>
-            <h2 class="sm-heading" style="color:DarkRed">Nice to meet you! I am a techno-managerial product enthusiast, with a knack for
+                <span class="secondary">Saatwick Chandra</span></h1><br>
+            <h2 class="sm-heading" style="color:DarkRed; line-height: 3;">Nice to meet you! I am a techno-managerial product enthusiast, with a knack for
                 maximising the product value and building technical solutions for real life problems. Salient facts and accomplishments of mine are:</h2>
 
             <!-- About -->
-            <div class="about-info">
+            <!-- <div class="about-info">
                 <div class="experience" style="color:black">
+                     <div class="experience-menu">
+                        <h3 id="education" onclick="switchVisible(this.id)">Education</h3>
+                        <h3 id="work" onclick="switchVisible(this.id)">Experience</h3>
+                    </div>
+                    <div class="experience-desc">
+                        <ul id="education-desc">
+                            <h5>
+                                <li>
+                                Area of interest lies in product management, scalable system architecture, product strategy and futuristic tech.
+                                </li>
+                                <li>
+                                Experience in software development, entrepreneurship, project management, B2C sales, leadership, product strategy and market fit.
+                                </li>
+                                <li>
+                                Graduated 12th (senior secondary) with 99.98th percentile in India.
+                                </li>
+                                <li>
+                                Recognised for an educational project ideation by Mozilla, Bhubaneswar.
+                                </li>
+                                <li>
+                                1st runner-up in national logo designing competition by Government of Delhi, India and IIT Delhi.
+                                </li>
+                                <li>
+                                Got 1400+ reads on my technical blogs.
+                                </li>
+                            </h5>
+                        </ul>
+                    </div>
+                    <div class="experience-resume">
+                        <a href="resume/Saatwick_Chandra_Resume.pdf" target="_blank"
+                             role="button" download="Saatwick_Chandra-Resume.pdf">
+                              Download Resume &nbsp;<i class="fa fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </section>
+ <!-- About -->
+            <section class="about-info">
+                <div class="experience" style="color:black; margin: 0;">
                     <!-- <div class="experience-menu">
                         <h3 id="education" onclick="switchVisible(this.id)">Education</h3>
                         <h3 id="work" onclick="switchVisible(this.id)">Experience</h3>
@@ -124,14 +170,10 @@
                         </a>
                     </div>
                 </div>
-            </div>
-
-
-        </div>
-    </section>
+            </section>
 
     <!-- Experience -section -->
-     <section class= "experience_nav" id="experience_nav" style="padding: 1.5rem;">
+     <section class="experience_nav1" id="experience_nav" style="background: rgba(245, 245, 245, 0.9); padding:4rem; min-height: 100vh;">
         <div class="experience-content" id="experience">
             <h1 class="lg-heading secondary" style="font-size:4rem; margin-left:15px">Experience </h1>
             <h2 class="sm-heading" style="color:black; text-align: center;font-weight:600">Professional Experience</h2>

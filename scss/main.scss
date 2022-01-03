@@ -139,8 +139,7 @@ nav .menu-btn,
 
 //home nav section
 .home_nav {
-  
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   justify-content: center;
 
@@ -194,6 +193,13 @@ nav .menu-btn,
   background: rgba($primary-color, 0.9);
 }
 
+//experience-nav section
+.experience_nav1 {
+  padding: 4rem;
+  min-height: 100vh;
+  background: rgba($primary-color, 0.9);
+}
+
 //skills-nav section
 .skills_nav {
   padding: 4rem;
@@ -208,101 +214,48 @@ nav .menu-btn,
 }
 
 //about section
-.about-info {
-  // .upper-about-info {
-  //   display: flex;
-  //   flex-direction: column;
-  //   flex-wrap: wrap;
-  //   justify-content: space-between;
-  // }
 
-  // .bio-image {
-  //   align-items: center;
-  //   border-radius: 20%;
-  //   border: solid 3px;
-  //   margin: auto;
-  //   height: 10rem;
-  // }
+.experience-desc {
+  //width: 75%;
+  margin-left: 10%;
+  line-height: 2;
 
-  // .bio {
-  //   margin-top: 5px;
-  //   font-size: 1.5rem;
-  //   word-spacing: 0.5rem;
-  // }
-
-  .experience {
-    display: flex;
-    flex-direction: row;
-    // justify-items: center;
-    // width: 100%;
-    // //background: lighten($primary-color, 5);
-    // padding: 1rem;
-    // margin-top: 1.5rem;
-    // //border-bottom: rgb(45, 133, 145) 3px solid;
-
-    // h3 {
-    //   font-weight: 500;
-    // }
-
-    // .experience-menu {
-    //   width: 25%;
-    //   margin-left: 10%;
-    //   line-height: 3;
-
-    //   h3 {
-    //     &.currentMenu {
-    //       color: rgb(45, 133, 145);
-    //     }
-    //   }
-
-    //   &:hover {
-    //     cursor: pointer;
-    //     @include easeOut();
-    //   }
-    // }
-    .experience-desc {
-      width: 75%;
-      margin-left: 10%;
-      //line-height: 3;
-
-      &.li {
-        line-height: 1;
-      }
-      ul {
-        &#work {
-          display: none;
-        }
-      }
+  &.li {
+    line-height: 1;
+  }
+  ul {
+    &#work {
+      display: none;
     }
+  }
+}
 
-    .experience-resume {
-      width: 25%;
-      display: flex;
-      align-items: center;
-      justify-items: center;
-      justify-content: flex-end;
-      margin-top: 1rem;
+.experience-resume {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
 
-      a {
-        display: inline;
-        letter-spacing: 0;
-        cursor: pointer;
-        font-size: 15px;
-        border: 3px solid #fff;
-        padding: 1rem 1rem;
-        margin-bottom: 3rem;
-        margin-right: 3.5rem;
-        border-radius: 10%;
-        color: #fff;
-        background-color: #333;
-        border-color: rgba(209, 33, 33, 0.616);
+  a {
+    display: inline;
+    letter-spacing: 0;
+    cursor: pointer;
+    font-size: 15px;
+    border: 3px solid #fff;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+    margin-right: 3.5rem;
+    border-radius: 10%;
+    color: #fff;
+    background-color: #333;
+    border-color: rgba(209, 33, 33, 0.616);
 
-        &:hover {
-          padding: 0.5rem 1rem;
-          background-color: $secondary-color;
-          color: #333;
-        }
-      }
+    &:hover {
+      padding: 0.5rem 1rem;
+      background-color: $secondary-color;
+      color: #333;
     }
   }
 }

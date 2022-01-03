@@ -195,7 +195,7 @@ nav .menu-btn,
   width: 90%;
   height: 100vh;
   margin: auto;
-  padding: 4rem;
+  padding-top: 4rem;
   min-height: 100vh;
 }
 .home_nav .home-content .icons {
@@ -279,7 +279,6 @@ nav .menu-btn,
   word-spacing: 0.5rem;
 }
 .about-info .experience {
-  display: flex;
   flex-direction: row;
   justify-items: center;
   width: 100%;
@@ -292,9 +291,8 @@ nav .menu-btn,
   font-weight: 500;
 }
 .about-info .experience .experience-menu {
-  width: 25%;
   margin-left: 10%;
-  line-height: 3;
+  line-height: 2;
 }
 .about-info .experience .experience-menu h3.currentMenu {
   color: #2d8591;
@@ -304,9 +302,9 @@ nav .menu-btn,
   transition: all 0.3s ease-out;
 }
 .about-info .experience .experience-desc {
-  width: 50%;
-  margin-left: 10%;
-  line-height: 3;
+  padding: 0.5rem;
+  margin-left: 5%;
+  line-height: 2;
 }
 .about-info .experience .experience-desc.li {
   line-height: 1;
@@ -316,11 +314,12 @@ nav .menu-btn,
 }
 .about-info .experience .experience-resume {
   width: 75%;
-  display: flex;
+  text-align: center;
   align-items: center;
   justify-items: center;
   justify-content: flex-end;
   margin-top: 1rem;
+  margin-left: 10rem;
 }
 .about-info .experience .experience-resume a {
   display: inline;
@@ -328,7 +327,7 @@ nav .menu-btn,
   cursor: pointer;
   font-size: 15px;
   border: 3px solid #fff;
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
   margin-bottom: 3rem;
   margin-right: 3.5rem;
   border-radius: 10%;
@@ -395,7 +394,11 @@ nav .menu-btn,
   color: black;
 }
 
-.btn, .container .mySlides .project-desc .showProjects-btn .projectGit-btn, .container .mySlides .project-desc .showProjects-btn .projectDemo-btn, .btn-light, .btn-dark {
+.btn,
+.container .mySlides .project-desc .showProjects-btn .projectGit-btn,
+.container .mySlides .project-desc .showProjects-btn .projectDemo-btn,
+.btn-light,
+.btn-dark {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -571,7 +574,11 @@ footer#main-footer {
     width: 90%;
   }
 
-  .btn, .btn-dark, .btn-light, .container .mySlides .project-desc .showProjects-btn .projectDemo-btn, .container .mySlides .project-desc .showProjects-btn .projectGit-btn {
+  .btn,
+  .btn-dark,
+  .btn-light,
+  .container .mySlides .project-desc .showProjects-btn .projectDemo-btn,
+  .container .mySlides .project-desc .showProjects-btn .projectGit-btn {
     font-size: 1.2rem;
   }
 
@@ -609,23 +616,23 @@ footer#main-footer {
   }
 
   nav .menu-btn,
-.navbar .menu1 .cancel-btn {
+  .navbar .menu1 .cancel-btn {
     display: block;
     opacity: 1;
   }
 
   .home_nav,
-.about_nav,
-.contact_nav,
-.skills_nav {
+  .about_nav,
+  .contact_nav,
+  .skills_nav {
     align-items: center;
     text-align: center;
     width: 100%;
   }
   .home_nav .lg-heading,
-.about_nav .lg-heading,
-.contact_nav .lg-heading,
-.skills_nav .lg-heading {
+  .about_nav .lg-heading,
+  .contact_nav .lg-heading,
+  .skills_nav .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
@@ -644,13 +651,13 @@ footer#main-footer {
   }
 
   ul.menu-nav,
-div.menu-branding {
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
   }
   ul.menu-nav.show,
-div.menu-branding.show {
+  div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
 
@@ -766,26 +773,26 @@ div.menu-branding.show {
 }
 @media screen and (max-width: 500px) {
   .home_nav,
-.about_nav,
-.contact_nav,
-.skills_nav {
+  .about_nav,
+  .contact_nav,
+  .skills_nav {
     align-items: center;
     text-align: center;
     width: 100%;
   }
   .home_nav .home_nav .home-content .lg-heading,
-.about_nav .home_nav .home-content .lg-heading,
-.contact_nav .home_nav .home-content .lg-heading,
-.skills_nav .home_nav .home-content .lg-heading {
+  .about_nav .home_nav .home-content .lg-heading,
+  .contact_nav .home_nav .home-content .lg-heading,
+  .skills_nav .home_nav .home-content .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
     font-size: 35px;
   }
   .home_nav .lg-heading,
-.about_nav .lg-heading,
-.contact_nav .lg-heading,
-.skills_nav .lg-heading {
+  .about_nav .lg-heading,
+  .contact_nav .lg-heading,
+  .skills_nav .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
@@ -804,7 +811,7 @@ div.menu-branding.show {
   }
 
   nav .menu-btn,
-.navbar .menu1 .cancel-btn {
+  .navbar .menu1 .cancel-btn {
     display: block;
     opacity: 1;
   }
