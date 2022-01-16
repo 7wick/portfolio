@@ -313,13 +313,13 @@ nav .menu-btn,
   display: none;
 }
 .about-info .experience .experience-resume {
-  width: 75%;
+  /* width: 75%; */
   text-align: center;
   align-items: center;
   justify-items: center;
   justify-content: flex-end;
   margin-top: 1rem;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
 }
 .about-info .experience .experience-resume a {
   display: inline;
