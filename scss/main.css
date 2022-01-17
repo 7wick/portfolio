@@ -248,6 +248,12 @@ nav .menu-btn,
   background: rgba(245, 245, 245, 0.9);
 }
 
+.blogs_nav1 {
+  padding: 4rem;
+  min-height: 100vh;
+  background: rgba(245, 245, 245, 0.9);
+}
+
 .experience_nav1 {
   padding: 4rem;
   min-height: 100vh;
@@ -357,11 +363,7 @@ nav .menu-btn,
   color: black;
 }
 
-.btn,
-.container .mySlides .project-desc .showProjects-btn .projectGit-btn,
-.container .mySlides .project-desc .showProjects-btn .projectDemo-btn,
-.btn-light,
-.btn-dark {
+.btn, .container .mySlides .project-desc .showProjects-btn .projectGit-btn, .container .mySlides .project-desc .showProjects-btn .projectDemo-btn, .btn-light, .btn-dark {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -537,11 +539,7 @@ footer#main-footer {
     width: 90%;
   }
 
-  .btn,
-  .btn-dark,
-  .btn-light,
-  .container .mySlides .project-desc .showProjects-btn .projectDemo-btn,
-  .container .mySlides .project-desc .showProjects-btn .projectGit-btn {
+  .btn, .btn-dark, .btn-light, .container .mySlides .project-desc .showProjects-btn .projectDemo-btn, .container .mySlides .project-desc .showProjects-btn .projectGit-btn {
     font-size: 1.2rem;
   }
 
@@ -579,23 +577,23 @@ footer#main-footer {
   }
 
   nav .menu-btn,
-  .navbar .menu1 .cancel-btn {
+.navbar .menu1 .cancel-btn {
     display: block;
     opacity: 1;
   }
 
   .home_nav,
-  .about_nav,
-  .contact_nav,
-  .skills_nav {
+.about_nav,
+.contact_nav,
+.skills_nav {
     align-items: center;
     text-align: center;
     width: 100%;
   }
   .home_nav .lg-heading,
-  .about_nav .lg-heading,
-  .contact_nav .lg-heading,
-  .skills_nav .lg-heading {
+.about_nav .lg-heading,
+.contact_nav .lg-heading,
+.skills_nav .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
@@ -614,13 +612,13 @@ footer#main-footer {
   }
 
   ul.menu-nav,
-  div.menu-branding {
+div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
   }
   ul.menu-nav.show,
-  div.menu-branding.show {
+div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
 
@@ -653,7 +651,6 @@ footer#main-footer {
   }
 
   .about-info .experience .experience-resume {
-    /* height: 75%; */
     width: auto;
     justify-items: center;
     align-items: center;
@@ -735,26 +732,26 @@ footer#main-footer {
 }
 @media screen and (max-width: 500px) {
   .home_nav,
-  .about_nav,
-  .contact_nav,
-  .skills_nav {
+.about_nav,
+.contact_nav,
+.skills_nav {
     align-items: center;
     text-align: center;
     width: 100%;
   }
   .home_nav .home_nav .home-content .lg-heading,
-  .about_nav .home_nav .home-content .lg-heading,
-  .contact_nav .home_nav .home-content .lg-heading,
-  .skills_nav .home_nav .home-content .lg-heading {
+.about_nav .home_nav .home-content .lg-heading,
+.contact_nav .home_nav .home-content .lg-heading,
+.skills_nav .home_nav .home-content .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
     font-size: 35px;
   }
   .home_nav .lg-heading,
-  .about_nav .lg-heading,
-  .contact_nav .lg-heading,
-  .skills_nav .lg-heading {
+.about_nav .lg-heading,
+.contact_nav .lg-heading,
+.skills_nav .lg-heading {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
@@ -773,7 +770,7 @@ footer#main-footer {
   }
 
   nav .menu-btn,
-  .navbar .menu1 .cancel-btn {
+.navbar .menu1 .cancel-btn {
     display: block;
     opacity: 1;
   }

@@ -90,7 +90,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 h1.sm-heading,
 h2.sm-heading,
@@ -636,7 +636,7 @@ footer#main-footer {
     text-align: center;
     line-height: 1;
     margin-bottom: 1rem;
-    font-size: 75px;
+    font-size: 4rem;
   }
 
   .projects_nav {
@@ -797,6 +797,10 @@ footer#main-footer {
     line-height: 1;
     margin-bottom: 1rem;
     font-size: 55px;
+  }
+  
+  .home_nav .sm-heading{
+	font-size: 20px;
   }
 
   .projects_nav {
