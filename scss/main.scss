@@ -275,8 +275,22 @@ nav .menu-btn,
 
   img {
     border-radius: 30%;
-    width: 11rem;
-    height: 11rem;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+//blogs-section
+.blogs1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  justify-items: center;
+
+  img {
+    border-radius: 30%;
+    width: 20rem;
+    height: 20rem;
   }
 }
 

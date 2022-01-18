@@ -349,8 +349,8 @@ nav .menu-btn,
 }
 .skills img {
   border-radius: 30%;
-  width: 11rem;
-  height: 11rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .skills_nav .skills-content .more-skills {
@@ -554,8 +554,8 @@ footer#main-footer {
   }
   .skills img {
     border-radius: 30%;
-    width: 11rem;
-    height: 11rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 @media screen and (min-width: 751px) and (max-width: 1190px) {
@@ -706,8 +706,8 @@ footer#main-footer {
   }
   .skills img {
     border-radius: 30%;
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
   }
 
   .boxes {
@@ -798,9 +798,9 @@ footer#main-footer {
     margin-bottom: 1rem;
     font-size: 55px;
   }
-  
-  .home_nav .sm-heading{
-	font-size: 20px;
+
+  .home_nav .sm-heading {
+    font-size: 20px;
   }
 
   .projects_nav {
@@ -826,8 +826,12 @@ footer#main-footer {
   }
   .skills img {
     border-radius: 30%;
-    width: 6rem;
-    height: 6rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .blog1 .blog2 .blog3 {
+    text-align: center;
   }
 
   .boxes .contact-desc .desc-size {

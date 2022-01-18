@@ -318,8 +318,20 @@ nav .menu-btn,
 }
 .skills img {
   border-radius: 30%;
-  width: 11rem;
-  height: 11rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.blogs1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  justify-items: center;
+}
+.blogs1 img {
+  border-radius: 30%;
+  width: 20rem;
+  height: 20rem;
 }
 
 .skills_nav .skills-content .more-skills {
@@ -519,8 +531,8 @@ footer#main-footer {
   }
   .skills img {
     border-radius: 30%;
-    width: 11rem;
-    height: 11rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 @media screen and (min-width: 751px) and (max-width: 1190px) {
@@ -530,8 +542,8 @@ footer#main-footer {
   }
   .skills img {
     border-radius: 30%;
-    width: 11rem;
-    height: 11rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 @media only screen and (max-width: 750px) {
